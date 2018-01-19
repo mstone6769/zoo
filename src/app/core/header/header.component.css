@@ -1,0 +1,35 @@
+:host {
+  display: flex;
+  background-color: rgb(96, 52, 30);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.site-title {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.site-title a {
+  padding: 1rem;
+  display: block;
+}
+
+
+.nav-item {
+  padding: 1rem;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+
+.go-right {
+  margin-right: auto;
+}

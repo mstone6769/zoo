@@ -1,0 +1,11 @@
+<app-page-header>Dogs</app-page-header>
+<button 
+  type="button"
+  (click)="goGetBreeds()">
+  Get Breeds
+</button>
+<ul>
+  <li *ngFor="let breed of breeds | async">
+    {{breed | uppercase}}
+  </li>
+</ul>
